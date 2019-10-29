@@ -1,7 +1,7 @@
 <template>
   <div>
     pagea {{this.$store.state.money.money}}
-    <button @click="add">增加</button>
+    <button @click="add(2)">增加</button>
     <button @click="reduce">删减</button>
   </div>
 </template>
